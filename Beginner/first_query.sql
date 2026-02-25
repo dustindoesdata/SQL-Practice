@@ -1,1 +1,0 @@
-SELECT 'Repo working' AS status;
