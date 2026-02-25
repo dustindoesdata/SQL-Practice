@@ -74,7 +74,7 @@ Larger analytics or data projects are maintained in separate repositories.
 
 ### HackerRank
 
-Easy: 1  
+Easy: 2  
 Medium: 0  
 Hard: 0  
 
@@ -94,6 +94,7 @@ Hard: 0
 
 Easy
 - Revising the Select Query I — 2026-02-24
+- Revising the Select Query II -2026-02-24
 
 Medium
 - None yet
