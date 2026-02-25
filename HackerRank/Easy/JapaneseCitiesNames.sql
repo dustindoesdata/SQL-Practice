@@ -12,6 +12,9 @@ Notes:
 This one was strange since it's farther down in the exercises, but it's to pull all cities only.
 */
 
-SELECT NAME
-FROM CITY
-WHERE COUNTRYCODE = 'JPN';
+SELECT 
+    NAME
+FROM 
+    CITY
+WHERE 
+    COUNTRYCODE = 'JPN';

@@ -12,6 +12,11 @@ Notes:
 This problem is the same as 'Revising the Select Query I', but it requires a specific column 'NAME' instead of all columns and the value was adjusted from 100000 to 120000
 */
 
-SELECT NAME
-FROM CITY
-WHERE COUNTRYCODE = 'USA' AND POPULATION > 120000;
+SELECT 
+    NAME
+FROM 
+    CITY
+WHERE 
+    COUNTRYCODE = 'USA' 
+    AND 
+    POPULATION > 120000;

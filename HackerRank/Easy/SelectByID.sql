@@ -12,6 +12,13 @@ Notes:
 Selecting every column, but by a specific ID
 */
 
-SELECT ID, NAME, COUNTRYCODE, DISTRICT, POPULATION
-FROM CITY
-WHERE ID = 1661;
+SELECT 
+    ID
+    , NAME
+    , COUNTRYCODE
+    , DISTRICT
+    , POPULATION
+FROM 
+    CITY
+WHERE 
+    ID= 1661;

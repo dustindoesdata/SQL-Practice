@@ -16,7 +16,14 @@ Remove rows not matching WHERE
 Return specific columns for efficiency since in large data sets SELECT * consumes greater resources.
 */
 
-SELECT ID, NAME, COUNTRYCODE, POPULATION
-FROM CITY
-WHERE COUNTRYCODE = 'USA'
-AND POPULATION > 100000;
+SELECT 
+    ID
+    , NAME
+    , COUNTRYCODE
+    , POPULATION
+FROM 
+    CITY
+WHERE 
+    COUNTRYCODE = 'USA'
+    AND 
+    POPULATION > 100000;

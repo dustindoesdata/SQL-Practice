@@ -12,6 +12,13 @@ Notes:
 This one was strange since it's farther down in the exercises, but it's to SELECT *, however, considering how inefficient and bad in practice that is in an actual database, I decided to name the columns individually.
 */
 
-SELECT ID, NAME, COUNTRYCODE, DISTRICT, POPULATION
-FROM CITY
-WHERE COUNTRYCODE = 'JPN';
+SELECT 
+    ID
+    , NAME
+    , COUNTRYCODE
+    , DISTRICT
+    , POPULATION
+FROM 
+    CITY
+WHERE 
+    COUNTRYCODE = 'JPN';
