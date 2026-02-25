@@ -13,4 +13,5 @@ This one was strange since it's farther down in the exercises, but it's to SELEC
 */
 
 SELECT ID, NAME, COUNTRYCODE, DISTRICT, POPULATION
-POPULATION FROM CITY;
+POPULATION 
+FROM CITY;
