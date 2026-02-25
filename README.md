@@ -38,9 +38,9 @@ Each SQL file includes:
 ### HackerRank (Total Problems: 58 → Easy 40, Medium 16, Hard 2)
 
 - Bar:  
-`███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` Easy | `░░░░░░░░░░░░░░░░░░` Medium | `░░` Hard  
+`████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░` Easy | `░░░░░░░░░░░░░░░░░░` Medium | `░░` Hard  
 - Legend: Easy 34 chars, Medium 14 chars, Hard 2 chars
-- Solved: Easy 7/40, Medium 0/16, Hard 0/2  
+- Solved: Easy 8/40, Medium 0/16, Hard 0/2  
 
 ### LeetCode (Total Problems: 105 → Easy 56, Medium 38, Hard 11)
 
@@ -61,6 +61,7 @@ Each SQL file includes:
 - Japanese Cities' Attributes - 2026-02-24
 - Japanese Cities' Names - 2026-02-25
 - Weather Observation Station 3 - 2026-02-25
+- Weather Observation Station 1 - 2026-02-25
 
 ### HackerRank Medium
 - None yet
