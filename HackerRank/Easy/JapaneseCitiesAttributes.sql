@@ -1,5 +1,5 @@
 /*
-Problem: Select All
+Problem: Japanese Cities' Attributes
 Platform: HackerRank
 Difficulty: Easy
 Date Solved: 2026-02-24
