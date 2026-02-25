@@ -38,16 +38,16 @@ Each SQL file includes:
 ### HackerRank (Total Problems: 58 → Easy 40, Medium 16, Hard 2)
 
 - Bar:  
-`███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` Easy | `░░░░░░░░░░░░░░░░░░` Medium | `░░` Hard  
-- Legend: Easy 34 chars, Medium 14 chars, Hard 2 chars (normalized to 50 total)  
-- Solved: Easy 3/40 → 3 blocks filled, Medium 0/16, Hard 0/2  
+`████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` Easy | `░░░░░░░░░░░░░░░░░░` Medium | `░░` Hard  
+- Legend: Easy 34 chars, Medium 14 chars, Hard 2 chars
+- Solved: Easy 4/40, Medium 0/16, Hard 0/2  
 
 ### LeetCode (Total Problems: 105 → Easy 56, Medium 38, Hard 11)
 
 - Bar:  
 `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` Easy | `░░░░░░░░░░░░░░░░░░░░` Medium | `░░░░░░` Hard  
-- Legend: Easy 26 chars, Medium 18 chars, Hard 6 chars (normalized to 50 total)  
-- Solved: all 0  
+- Legend: Easy 26 chars, Medium 18 chars, Hard 6 chars  
+- Solved: 0/0
 
 ---
 
@@ -56,7 +56,8 @@ Each SQL file includes:
 ### HackerRank Easy
 - Revising the Select Query I — 2026-02-24  
 - Revising the Select Query II — 2026-02-24  
-- Select All — 2026-02-24  
+- Select All — 2026-02-24 
+- Select By ID - 2026-02-24
 
 ### HackerRank Medium
 - None yet
