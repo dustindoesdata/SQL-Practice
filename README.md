@@ -1,137 +1,102 @@
-# SQL Practice Repository
+# SQL Practice Portfolio
 
-This repository contains my SQL solutions organized by platform and difficulty.
-It is designed to track structured SQL interview preparation and demonstrate
-consistent improvement in querying, reasoning, and performance awareness.
+This repository tracks structured SQL practice across HackerRank and LeetCode.  
+It emphasizes **progression, completeness, and skills development** in SQL.
 
 ---
 
 ## Repository Structure
 
 SQL-Practice/
+- HackerRank/
+  - Easy/
+  - Medium/
+  - Hard/
+- LeetCode/
+  - Easy/
+  - Medium/
+  - Hard/
+- README.md
 
-HackerRank/
-    Easy/
-    Medium/
-    Hard/
+Each SQL file includes:
 
-LeetCode/
-    Easy/
-    Medium/
-    Hard/
-
-Each SQL file represents one solved problem.
-
----
-
-## SQL File Structure
-
-Every solution file follows the same format to ensure consistency
-and readability across the repository:
-
-Problem:
-Name of the exercise.
-
-Platform:
-Where the problem originated (HackerRank or LeetCode).
-
-Difficulty:
-Easy, Medium, or Hard.
-
-Date Solved:
-When the solution was completed.
-
-Environment:
-SQL dialect used (for example MS SQL Server, PostgreSQL, SQLite).
-
-Goal:
-Short description of what the query must return.
-
-Notes:
-Optional explanation of logic, ordering of filters, or performance reasoning.
-
-SQL:
-Final working query.
-
----
-
-## Purpose of This Repository
-
-The goal of this repository is to demonstrate:
-
-- Structured SQL practice aligned with interview platforms
-- Strong understanding of filtering, joins, and aggregations
-- Ability to reason about query correctness
-- Awareness of SQL execution behavior
-- Consideration of indexing and performance
-
-This repository intentionally focuses only on SQL exercises.
-Larger analytics or data projects are maintained in separate repositories.
+- Problem  
+- Platform  
+- Difficulty  
+- Date Solved  
+- Environment  
+- Goal  
+- Notes  
+- SQL
 
 ---
 
 ## Progress Tracker
 
-### HackerRank
+**Bar shows total problems for the platform, split by difficulty. Filled = solved.**  
 
-Easy: 2  
-Medium: 0  
-Hard: 0  
+### HackerRank (Total Problems: 58 → Easy 40, Medium 16, Hard 2)
 
----
+- Bar:  
+`███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` Easy | `░░░░░░░░░░░░░░░░░░` Medium | `░░` Hard  
+- Legend: Easy 34 chars, Medium 14 chars, Hard 2 chars (normalized to 50 total)  
+- Solved: Easy 3/40 → 3 blocks filled, Medium 0/16, Hard 0/2  
 
-### LeetCode
+### LeetCode (Total Problems: 105 → Easy 56, Medium 38, Hard 11)
 
-Easy: 0  
-Medium: 0  
-Hard: 0  
+- Bar:  
+`░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` Easy | `░░░░░░░░░░░░░░░░░░░░` Medium | `░░░░░░` Hard  
+- Legend: Easy 26 chars, Medium 18 chars, Hard 6 chars (normalized to 50 total)  
+- Solved: all 0  
 
 ---
 
 ## Solved Problems
 
-### HackerRank
+### HackerRank Easy
+- Revising the Select Query I — 2026-02-24  
+- Revising the Select Query II — 2026-02-24  
+- Select All — 2026-02-24  
 
-Easy
-- Revising the Select Query I — 2026-02-24
-- Revising the Select Query II -2026-02-24
-
-Medium
+### HackerRank Medium
 - None yet
 
-Hard
+### HackerRank Hard
 - None yet
 
----
-
-### LeetCode
-
-Easy
+### LeetCode Easy
 - None yet
 
-Medium
+### LeetCode Medium
 - None yet
 
-Hard
+### LeetCode Hard
 - None yet
 
 ---
 
 ## Tools Used
 
-- SQL (ANSI-style syntax where possible)
-- Some problems written in MS SQL Server dialect depending on platform
-- Queries may be tested locally using SQLite or PostgreSQL when needed
+- SQL (ANSI syntax preferred)  
+- MS SQL Server for platform-aligned exercises  
+- SQLite/PostgreSQL for local testing  
+- Git + GitHub for version control and portfolio tracking  
 
 ---
 
 ## Practice Approach
 
-Problems are solved in increasing difficulty order to build:
+1. Solve problems sequentially by difficulty  
+2. Document each problem fully with SQL, goal, and notes  
+3. Push to GitHub to maintain a **versioned public portfolio**  
+4. Reflect on query performance, indexing, and execution best practices  
+5. Track growth visually using progress bars and problem counts
 
-1. Strong SQL fundamentals
-2. Reliable query construction habits
-3. Interview-ready SQL problem solving speed
-4. Awareness of how query structure and indexing affect performance
+---
 
-New problems are added continuously as part of structured SQL practice.
+## Future Enhancements
+
+- Expand Medium and Hard difficulty coverage across both platforms  
+- Include execution notes, indexing insights, or query optimizations  
+- Optionally add diagrams or schema snapshots for complex queries  
+- Update progress bars as problems are solved to track portfolio growth
