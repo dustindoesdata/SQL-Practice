@@ -12,7 +12,8 @@ The sum of all values in LONG_W
 rounded to a scale of  decimal places.
 
 
-Notes:
+Notes: Will update in the morning - 
+It's getting late, pushing solution to sleep.
 */
 
 SELECT 
