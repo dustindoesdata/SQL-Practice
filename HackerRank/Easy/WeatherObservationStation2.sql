@@ -12,20 +12,13 @@ The sum of all values in LONG_W
 rounded to a scale of  decimal places.
 
 
-Notes: Will update in the morning - 
-It's getting late, pushing solution to sleep.
+Notes: SUM(x) coputes the total, 
+CAST(... AS DECIMAL(10,2)) forces precision 10(left side) and scale 2(right side)
+This approach guarantees two decimal places in the output.
 */
 
 SELECT 
-    CAST(
-        ROUND(
-            SUM(LAT_N), 2) 
-            AS DECIMAL(10,2)) 
-            AS LAT_N,
-    CAST(
-        ROUND(
-            SUM(LONG_W), 2) 
-            AS DECIMAL(10,2)) 
-            AS LONG_W 
+    CAST(SUM(LAT_N)     AS DECIMAL(10,2))   AS LAT_N,
+    CAST(SUM(LONG_W)    AS DECIMAL(10,2))   AS LONG_W 
 FROM 
     STATION;
