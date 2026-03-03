@@ -1,7 +1,7 @@
 /*
 Problem: Higher Than 75 Marks
 Platform: HackerRank
-Difficulty: EASY
+Difficulty: Easy
 Date Solved: 2026-03-03
 Environment: MS SQL SERVER
 

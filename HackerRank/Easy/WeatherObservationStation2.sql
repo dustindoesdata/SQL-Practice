@@ -1,7 +1,7 @@
 /*
 Problem: Weather Observation Station 2
 Platform: HackerRank
-Difficulty: EASY
+Difficulty: Easy
 Date Solved: 2026-02-27
 Environment: MS SQL SERVER
 
