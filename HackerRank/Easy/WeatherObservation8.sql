@@ -1,5 +1,5 @@
 /*
-Problem: Weather Observation Station 7
+Problem: Weather Observation Station 8
 Platform: HackerRank
 Difficulty: EASY
 Date Solved: 2026-03-03
@@ -22,6 +22,6 @@ SELECT
 FROM 
     STATION 
 WHERE 
-    CITY LIKE '%[a,e,i,o,u]' 
+    CITY LIKE '%[aeiou]' 
         AND 
-    CITY LIKE '[a,e,i,o,u]%';
+    CITY LIKE '[aeiou]%';
