@@ -1,9 +1,9 @@
 /*
-Problem:
-Platform:
-Difficulty:
-Date Solved: 
-Environment:
+Problem: Weather Observation Station 6
+Platform: HackerRank
+Difficulty: EASY
+Date Solved: 2026-03-02
+Environment: MS SQL SERVER
 
 Goal:Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. 
 Your result cannot contain duplicates.
@@ -30,6 +30,9 @@ WHERE
     OR CITY LIKE 'u%';
 
 --Using bracket expressions
-SELECT DISTINCT CITY
-FROM STATION
-WHERE CITY LIKE '[aeiou]%';
+SELECT DISTINCT 
+    CITY
+FROM 
+    STATION
+WHERE 
+    CITY LIKE '[aeiou]%';
