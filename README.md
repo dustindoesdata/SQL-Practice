@@ -38,9 +38,9 @@ Each SQL file includes:
 ### HackerRank (Total Problems: 58 → Easy 40, Medium 16, Hard 2)
 
 - Bar:  
-`████████████████████░░░░░░░░░░░░░░░░` Easy | `░░░░░░░░░░░░░░░░░░` Medium | `░░` Hard  
+`█████████████████████░░░░░░░░░░░░░░░` Easy | `░░░░░░░░░░░░░░░░░░` Medium | `░░` Hard  
 - Legend: Easy 34 chars, Medium 14 chars, Hard 2 chars
-- Solved: Easy 20/40, Medium 0/16, Hard 0/2  
+- Solved: Easy 21/40, Medium 0/16, Hard 0/2  
 
 ### LeetCode (Total Problems: 105 → Easy 56, Medium 38, Hard 11)
 
@@ -74,6 +74,7 @@ Each SQL file includes:
 - Weather Observation Station 12 - 2026-03-03
 - Higher Than 75 Marks - 2026-03-03
 - Employee Names - 2026-03-03
+- Employee Salary - 2026-03-03
 
 ### HackerRank Medium
 - None yet
