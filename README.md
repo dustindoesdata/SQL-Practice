@@ -40,7 +40,7 @@ Each SQL file includes:
 - Bar:  
 `████████████░░░░░░░░░░░░░░░░░░░░░░░░` Easy | `░░░░░░░░░░░░░░░░░░` Medium | `░░` Hard  
 - Legend: Easy 34 chars, Medium 14 chars, Hard 2 chars
-- Solved: Easy 11/40, Medium 0/16, Hard 0/2  
+- Solved: Easy 12/40, Medium 0/16, Hard 0/2  
 
 ### LeetCode (Total Problems: 105 → Easy 56, Medium 38, Hard 11)
 
