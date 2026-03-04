@@ -75,7 +75,7 @@ Each SQL file includes:
 - 19 - Higher Than 75 Marks -- 2026-03-03
 - 20 - Employee Names -- 2026-03-03
 - 21 - Employee Salary -- 2026-03-03
-- 22 - Type Of Triangle -- 2026-03-04
+- 22 - Type of Triangle -- 2026-03-04
 
 ### HackerRank Medium
 - None yet
