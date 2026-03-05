@@ -21,8 +21,11 @@ This states that the sum length of two sides must be greater than the third.
 
 */
 
--- This solution is okay, because it lays out the math clearly, but it repeats the calculations. 
---I wouldn't use something like this in a production environment because it duplicates effort.
+/*This solution is readable, and normally you would use a Derived Table if there is a formula that is being used more than once.
+In a longer solution you might use a CTE or (Common Table Expression) for reusability.
+In this case, the formula is straight forward enough you could leave it like this with no issues.
+Derived Table(Within Single Select), CTE (Within a Single Query), Temp Table(Within a Session), View(permanent) 
+*/
 SELECT 
     CASE
         WHEN A + B <= C OR A + C <= B OR B + C <= A THEN 'Not A Triangle'
@@ -32,9 +35,3 @@ SELECT
         ELSE 'Scalene'
     END AS TypeOfTriangle
 FROM TRIANGLES;
-
-
-    
-
-
-
