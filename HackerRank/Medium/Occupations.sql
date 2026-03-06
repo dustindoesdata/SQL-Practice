@@ -62,6 +62,8 @@ FROM RN_OCCUPATIONS
 GROUP BY RowNumber
 ORDER BY RowNumber;
 
+
+
 -- Solution 3
 -- Reuse CTE 
 WITH RN_OCCUPATIONS AS (
