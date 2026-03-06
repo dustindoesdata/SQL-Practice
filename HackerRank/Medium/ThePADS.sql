@@ -2,7 +2,7 @@
 Problem: The PADS
 Platform: HackerRank
 Difficulty: Medium
-Date Solved: 
+Date Solved: 2026-03-05
 Environment: MS SQL SERVER
 
 Goal:
