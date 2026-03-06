@@ -62,6 +62,57 @@ FROM RN_OCCUPATIONS
 GROUP BY RowNumber
 ORDER BY RowNumber;
 
+-- Solution 3
+-- Reuse CTE 
+WITH RN_OCCUPATIONS AS (
+    SELECT
+        Name,
+        Occupation,
+        ROW_NUMBER() OVER (
+            PARTITION BY Occupation 
+            ORDER BY Name
+        ) AS RowNumber
+    FROM OCCUPATIONS
+)
+-- Create table variables for each profession
+DECLARE @Doctor TABLE (rn INT, Name VARCHAR(25));
+DECLARE @Professor TABLE (rn INT, Name VARCHAR(25));
+DECLARE @Singer TABLE (rn INT, Name VARCHAR(25));
+DECLARE @Actor TABLE (rn INT, Name VARCHAR(25));
+
+-- Populate the created variables
+INSERT INTO @Doctor
+SELECT ROW_NUMBER() OVER (ORDER BY Name), Name
+FROM OCCUPATIONS
+WHERE Occupation = 'Doctor';
+
+INSERT INTO @Professor
+SELECT ROW_NUMBER() OVER (ORDER BY Name), Name
+FROM OCCUPATIONS
+WHERE Occupation = 'Professor';
+
+INSERT INTO @Singer
+SELECT ROW_NUMBER() OVER (ORDER BY Name), Name
+FROM OCCUPATIONS
+WHERE Occupation = 'Singer';
+
+INSERT INTO @Actor
+SELECT ROW_NUMBER() OVER (ORDER BY Name), Name
+FROM OCCUPATIONS
+WHERE Occupation = 'Actor';
+
+-- Combine Variables with a JOIN 
+SELECT 
+    d.Name AS Doctor,
+    p.Name AS Professor,
+    s.Name AS Singer,
+    a.Name AS Actor
+FROM @Doctor d
+FULL OUTER JOIN @Professor p ON d.rn = p.rn
+FULL OUTER JOIN @Singer s ON COALESCE(d.rn, p.rn) = s.rn
+FULL OUTER JOIN @Actor a ON COALESCE(d.rn, p.rn, s.rn) = a.rn
+ORDER BY d.rn;
+
 --Making fake headers for easy reading (Commented out because HackerRank wouldn't accept it, but it makes it cleaner)
 /*SELECT 0 AS RowNumber, 'Doctor' AS [Doctor], 'Professor' AS [Professor], 'Singer' AS [Singer], 'Actor' AS [Actor]
 UNION ALL
