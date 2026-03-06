@@ -2,7 +2,7 @@
 Problem: Type Of Triangle
 Platform: HackerRank
 Difficulty: Easy
-Date Solved: 2026-03-02
+Date Solved: 2026-03-04
 Environment: MS SQL SERVER
 
 Goal: Write a query identifying the type of each record in the TRIANGLES table using its three side lengths. 
