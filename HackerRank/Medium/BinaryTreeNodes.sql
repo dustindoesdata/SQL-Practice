@@ -14,4 +14,19 @@ Leaf: If node is leaf node.
 Inner: If node is neither root nor leaf node.
 
 Notes:
+    The P value in this table (parent) can be NULL, which means is p=NULL Node is a root.
+    If the N value does not appear in the P value then its a leaf.
+    If a value contains values in both, it is an inner. 
 */
+
+-- Solution 1
+--This solution could be improved, since 'NOT IN' generates a list of every parent value, so the number of records would be the records evaluated.
+SELECT 
+    N
+    ,CASE
+        WHEN P IS NULL THEN 'Root'
+        WHEN N NOT IN (SELECT P FROM BST WHERE P IS NOT NULL) THEN 'Leaf'
+        ELSE 'Inner'
+    END AS IdentifyNode
+FROM BST
+ORDER BY N;
