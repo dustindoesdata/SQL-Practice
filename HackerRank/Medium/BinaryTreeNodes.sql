@@ -36,3 +36,16 @@ ORDER BY N;
 /*This solution uses a table alias and a coorelated subquery(depends on a column fromt he outer query) 
 to check for children instead of comparing the entire set. 
 This solution evaluates each row individually and then stops on a match. */
+SELECT
+    node.N AS node_value, -- node is alias for outer
+    CASE
+        WHEN node.P IS NULL THEN 'Root'
+        WHEN NOT EXISTS (
+            SELECT 1 -- Placeholder, SQL says you need it to run this I just need a bool, not the data itself.
+            FROM BST potential_child --Ref same table alias for inner 
+            WHERE potential_child.P = node.N --Checks for parents
+        ) THEN 'Leaf'
+        ELSE 'Inner'
+    END AS node_type
+FROM BST node
+ORDER BY node.N;
