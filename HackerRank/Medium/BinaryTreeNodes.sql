@@ -2,7 +2,7 @@
 Problem: Binary Tree Nodes
 Platform: HackerRank
 Difficulty: Medium
-Date Solved:
+Date Solved: 2026-03-07
 Environment: MS SQL SERVER
 
 Goal:You are given a table, BST, containing two columns: N and P, 
@@ -20,7 +20,8 @@ Notes:
 */
 
 -- Solution 1
---This solution could be improved, since 'NOT IN' generates a list of every parent value, so the number of records would be the records evaluated.
+/*This solution could be improved for large datasets, since 'NOT IN' builds a whole set of every parent value, 
+and then compares each node against the entire set.*/
 SELECT 
     N
     ,CASE
@@ -30,3 +31,8 @@ SELECT
     END AS IdentifyNode
 FROM BST
 ORDER BY N;
+
+-- Solution 2
+/*This solution uses a table alias and a coorelated subquery(depends on a column fromt he outer query) 
+to check for children instead of comparing the entire set. 
+This solution evaluates each row individually and then stops on a match. */
