@@ -38,7 +38,7 @@ Each SQL file includes:
 ### HackerRank (Total Problems: 58 → Easy 40, Medium 16, Hard 2)
 
 - Bar:  
-`███████████████████████████████████░` Easy | `████░░░░░░░░░░░░░░` Medium | `░░` Hard  
+`██████████████████████████████████░` Easy | `████░░░░░░░░░░░░░░` Medium | `░░` Hard  
 - Legend: Easy 34 chars, Medium 14 chars, Hard 2 chars
 - Solved: Easy 35/40, Medium 4/16, Hard 0/2  
 
