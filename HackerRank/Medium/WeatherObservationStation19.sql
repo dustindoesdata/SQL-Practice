@@ -1,8 +1,8 @@
 /*
-Problem:
+Problem: Weather Observation Station 19
 Platform: HackerRank
-Difficulty:
-Date Solved: 
+Difficulty: Medium
+Date Solved: 2026-03-09
 Environment: MS SQL SERVER
 
 Goal:Consider P1(a,c) and P2(b,d) to be two points on a 2D plane 
