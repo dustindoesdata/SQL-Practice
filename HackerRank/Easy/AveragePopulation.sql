@@ -1,5 +1,5 @@
 /*
-Problem: Average Problem
+Problem: Average Population
 Platform: HackerRank
 Difficulty: Easy
 Date Solved: 2026-03-08
