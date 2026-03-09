@@ -38,9 +38,9 @@ Each SQL file includes:
 ### HackerRank (Total Problems: 58 → Easy 40, Medium 16, Hard 2)
 
 - Bar:  
-`██████████████████████████████████░` Easy | `█████░░░░░░░░░░░░░` Medium | `░░` Hard  
+`██████████████████████████████████░` Easy | `██████░░░░░░░░░░░░` Medium | `░░` Hard  
 - Legend: Easy 34 chars, Medium 14 chars, Hard 2 chars
-- Solved: Easy 35/40, Medium 5/16, Hard 0/2  
+- Solved: Easy 35/40, Medium 6/16, Hard 0/2  
 
 ### LeetCode (Total Problems: 105 → Easy 56, Medium 38, Hard 11)
 
@@ -96,6 +96,7 @@ Each SQL file includes:
 - 3 - Binary Tree Nodes -- 2026-03-07
 - 4 - New Companies -- 2026-03-07
 - 5 - Weather Observation Station 18 -- 2026-03-09
+- 6 - Weather Observation Station 19 -- 2026-03-09
 
 ### HackerRank Hard
 - None yet
