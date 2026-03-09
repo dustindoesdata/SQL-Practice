@@ -2,7 +2,7 @@
 Problem: Weather Observation Station 15
 Platform: HackerRank
 Difficulty: Easy
-Date Solved: 
+Date Solved: 2026-03-09
 Environment: MS SQL SERVER
 
 Goal: Query the Western Longitude (LONG_W) for the largest Northern Latitude (LAT_N) in STATION that is less than 137.2345. 
