@@ -2,7 +2,7 @@
 Problem: New Companies
 Platform: HackerRank
 Difficulty: Medium
-Date Solved: 
+Date Solved: 2026-03-08
 Environment: MS SQL Server
 
 Goal:Amber's conglomerate corporation just acquired some new companies. 
@@ -14,6 +14,8 @@ The company_code is string, so the sorting should not be numeric.
 For example, if the company_codes are C_1, C_2, and C_10, then the ascending company_codes will be C_1, C_10, and C_2.
 
 Notes:
+Follow Heiarchy to avoid conflicts. 
+Start at the head, not the feet.
 company_code
 founder name
 total # of lead managers

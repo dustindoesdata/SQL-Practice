@@ -38,9 +38,9 @@ Each SQL file includes:
 ### HackerRank (Total Problems: 58 → Easy 40, Medium 16, Hard 2)
 
 - Bar:  
-`██████████████████████░░░░░░░░░░░░░░` Easy | `████░░░░░░░░░░░░░░` Medium | `░░` Hard  
+`███████████████████████░░░░░░░░░░░░░` Easy | `████░░░░░░░░░░░░░░` Medium | `░░` Hard  
 - Legend: Easy 34 chars, Medium 14 chars, Hard 2 chars
-- Solved: Easy 22/40, Medium 4/16, Hard 0/2  
+- Solved: Easy 23/40, Medium 4/16, Hard 0/2  
 
 ### LeetCode (Total Problems: 105 → Easy 56, Medium 38, Hard 11)
 
@@ -54,28 +54,29 @@ Each SQL file includes:
 ## Solved Problems
 
 ### HackerRank Easy
-- 01 - Revising the Select Query I --    2026-02-24  
-- 02 - Revising the Select Query II —-   2026-02-24  
-- 03 - Select All —-                     2026-02-24 
-- 04 - Select By ID --                   2026-02-24
-- 05 - Japanese Cities' Attributes --    2026-02-24
-- 06 - Japanese Cities' Names --         2026-02-25
-- 07 - Weather Observation Station 3 --  2026-02-25
-- 08 - Weather Observation Station 1 --  2026-02-25
-- 09 - Weather Observation Station 4 --  2026-02-27
-- 10 - Weather Observation Station 2 --  2026-02-27
-- 11 - Weather Observation Station 5 --  2026-03-02
-- 12 - Weather Observation Station 6 --  2026-03-02
-- 13 - Weather Observation Station 7 --  2026-03-03
-- 14 - Weather Observation Station 8 --  2026-03-03
-- 15 - Weather Observation Station 9 --  2026-03-03
+- 01 - Revising the Select Query I -- 2026-02-24  
+- 02 - Revising the Select Query II —- 2026-02-24  
+- 03 - Select All —- 2026-02-24 
+- 04 - Select By ID -- 2026-02-24
+- 05 - Japanese Cities' Attributes -- 2026-02-24
+- 06 - Japanese Cities' Names -- 2026-02-25
+- 07 - Weather Observation Station 3 -- 2026-02-25
+- 08 - Weather Observation Station 1 -- 2026-02-25
+- 09 - Weather Observation Station 4 -- 2026-02-27
+- 10 - Weather Observation Station 2 -- 2026-02-27
+- 11 - Weather Observation Station 5 -- 2026-03-02
+- 12 - Weather Observation Station 6 -- 2026-03-02
+- 13 - Weather Observation Station 7 -- 2026-03-03
+- 14 - Weather Observation Station 8 -- 2026-03-03
+- 15 - Weather Observation Station 9 -- 2026-03-03
 - 16 - Weather Observation Station 10 -- 2026-03-03
 - 17 - Weather Observation Station 11 -- 2026-03-03
 - 18 - Weather Observation Station 12 -- 2026-03-03
-- 19 - Higher Than 75 Marks --           2026-03-03
-- 20 - Employee Names --                 2026-03-03
-- 21 - Employee Salary --                2026-03-03
-- 22 - Type of Triangle --               2026-03-04
+- 19 - Higher Than 75 Marks -- 2026-03-03
+- 20 - Employee Names -- 2026-03-03
+- 21 - Employee Salary -- 2026-03-03
+- 22 - Type of Triangle -- 2026-03-04
+- 23 - Revising Aggregations - The Count Function -- 2026-03-08
 
 ### HackerRank Medium
 - 1 - The PADS --          2026-03-05
