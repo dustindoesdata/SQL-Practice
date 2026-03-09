@@ -86,7 +86,7 @@ Each SQL file includes:
 - 30 - Top Earners -- 2026-03-08
 - 31 - Weather Observation Station 13 -- 2026-03-08
 - 32 - Weather Observation Station 14 -- 2026-03-08
-- 33 - Weather Observation Station 15 -- 2026-03-08
+- 33 - Weather Observation Station 15 -- 2026-03-09
 
 ### HackerRank Medium
 - 1 - The PADS -- 2026-03-05
