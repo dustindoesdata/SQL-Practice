@@ -2,7 +2,7 @@
 Problem: African Cities
 Platform: HackerRank
 Difficulty: Easy
-Date Solved: 
+Date Solved: 2026-03-09
 Environment: MS SQL SERVER
 
 Goal: Given the CITY and COUNTRY tables, 
