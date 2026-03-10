@@ -40,7 +40,7 @@ Each SQL file includes:
 - Bar:  
 `███████████████████████████████████` Easy | `███████░░░░░░░░░░░` Medium | `░░` Hard  
 - Legend: Easy 34 chars, Medium 14 chars, Hard 2 chars
-- Solved: Easy 36/40, Medium 7/16, Hard 0/2  
+- Solved: Easy 37/40, Medium 7/16, Hard 0/2  
 
 ### LeetCode (Total Problems: 105 → Easy 56, Medium 38, Hard 11)
 
@@ -89,7 +89,9 @@ Each SQL file includes:
 - 33 - Weather Observation Station 15 -- 2026-03-09
 - 33 - Weather Observation Station 16 -- 2026-03-09
 - 34 - Weather Observation Station 17 -- 2026-03-09
-- 35 - Population Census -- 2026-03-09
+- 35 - Japan population -- 2026-03-09
+- 36 - Population Census -- 2026-03-09
+- 37 - African Cities -- 2026-03-09
 
 ### HackerRank Medium
 - 1 - The PADS -- 2026-03-05
