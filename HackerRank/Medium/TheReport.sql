@@ -26,10 +26,30 @@ by their marks in ascending order.
 Write a query to help Eve.
 
 Notes:
-Columns- Name, Grade, and Report
+Two Tables: Students and Grades
+Students- ID, Name, Marks
+Grades- Grade, Min_Mark, Max_Mark
+
+Required Columns- Name, Grade, and Mark
 Grades >= 8
 Order by Grade DESC, Name ASC
 Grade < 8 = "NULL" as Name
 Order by Grades DESC, Marks ASC
 
 */
+
+-- I would prefer to compile a CTE for readability and the ease of onboarding, but it didn't compile in HackerRank, so I just went with a join.
+SELECT
+    CASE
+        WHEN g.Grade < 8 THEN 'NULL'
+        ELSE s.Name
+    END AS Name,
+    g.Grade,
+    s.Marks
+FROM Students s
+JOIN Grades g
+    ON s.Marks BETWEEN g.Min_Mark AND g.Max_Mark
+ORDER BY
+    g.Grade DESC,
+    CASE WHEN g.Grade >= 8 THEN s.Name END ASC,
+    CASE WHEN g.Grade < 8  THEN s.Marks END ASC;
