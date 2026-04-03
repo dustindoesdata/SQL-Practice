@@ -2,7 +2,7 @@
 Problem: The Report
 Platform: HackerRank
 Difficulty: Medium
-Date Solved:
+Date Solved: 2026-04-02
 Environment: MS SQL SERVER
 
 Goal:You are given two tables: Students and Grades. 
