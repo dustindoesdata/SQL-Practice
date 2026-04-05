@@ -2,7 +2,7 @@
 Problem: Ollivanders Inventory
 Platform: HackerRank
 Difficulty: Medium
-Date Solved: 
+Date Solved: 2026-04-04
 Environment: MS SQL SERVER
 
 Goal:

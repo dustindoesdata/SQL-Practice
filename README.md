@@ -38,8 +38,8 @@ Each SQL file includes:
 ### HackerRank (Total Problems: 58 → Easy 40, Medium 16, Hard 2)
 
 - Bar:  
-`████████████████████████████████████████` Easy | `█████████░░░░░░░░░` Medium | `░░` Hard  
-- Solved: Easy 40/40, Medium 9/16, Hard 0/2  
+`████████████████████████████████████████` Easy | `██████████░░░░░░░░` Medium | `░░` Hard  
+- Solved: Easy 40/40, Medium 10/16, Hard 0/2  
 
 ### LeetCode (Total Problems: 105 → Easy 56, Medium 38, Hard 11)
 
@@ -105,6 +105,7 @@ Each SQL file includes:
 - 7 - Weather Observation Station 20 -- 2026-03-09
 - 8 - The Report -- 2026-04-02
 - 9 - Top Competitors -- 2026-04-02
+- 10 - Ollivander's Inventory -- 2026-04-04
 
 ### HackerRank Hard
 - None yet
