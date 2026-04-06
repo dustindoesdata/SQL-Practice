@@ -16,3 +16,39 @@ then exclude those students from the result.
 
 Notes:
 */
+
+SELECT
+    h.hacker_id,
+    h.name,
+    COUNT(c.challenge_id) AS total
+FROM Hackers h
+JOIN Challenges c
+    ON h.hacker_id = c.hacker_id
+GROUP BY
+    h.hacker_id,
+    h.name
+HAVING
+    -- keep if their count is the max
+    COUNT(c.challenge_id) = (
+        SELECT MAX(cnt)
+        FROM (
+            SELECT COUNT(challenge_id) AS cnt
+            FROM Challenges
+            GROUP BY hacker_id
+        ) AS max_counts
+    )
+    OR
+    -- keep if their count is unique (no one else has the same count)
+    COUNT(c.challenge_id) IN (
+        SELECT cnt
+        FROM (
+            SELECT COUNT(challenge_id) AS cnt
+            FROM Challenges
+            GROUP BY hacker_id
+        ) AS all_counts
+        GROUP BY cnt
+        HAVING COUNT(cnt) = 1
+    )
+ORDER BY
+    total DESC,
+    h.hacker_id ASC;
