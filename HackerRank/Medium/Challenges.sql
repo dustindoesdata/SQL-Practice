@@ -2,7 +2,7 @@
 Problem: Challenges
 Platform: HackerRank
 Difficulty: Medium
-Date Solved: 
+Date Solved: 2026-04-05
 Environment: MS SQL SERVER
 
 Goal: Julia asked her students to create some coding challenges. 
