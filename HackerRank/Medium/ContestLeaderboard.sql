@@ -14,3 +14,25 @@ then sort the result by ascending hacker_id. Exclude all hackers with a total sc
 
 Notes:
 */
+
+SELECT
+    h.hacker_id,
+    h.name,
+    SUM(max_scores.best) AS total_score
+FROM Hackers h
+JOIN (
+    SELECT
+        hacker_id,
+        challenge_id,
+        MAX(score) AS best
+    FROM Submissions
+    GROUP BY hacker_id, challenge_id
+) AS max_scores
+    ON h.hacker_id = max_scores.hacker_id
+GROUP BY
+    h.hacker_id,
+    h.name
+HAVING SUM(max_scores.best) > 0
+ORDER BY
+    total_score DESC,
+    h.hacker_id ASC;
