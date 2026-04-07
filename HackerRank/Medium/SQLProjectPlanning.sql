@@ -18,3 +18,23 @@ Project 4: Only task 7 is part of the project. Thus, the start date of project i
 
 Notes:
 */
+
+SELECT
+    s.Start_Date,
+    MIN(e.End_Date) AS End_Date
+FROM
+    (
+        SELECT Start_Date
+        FROM Projects
+        WHERE Start_Date NOT IN (SELECT End_Date FROM Projects)
+    ) AS s,
+    (
+        SELECT End_Date
+        FROM Projects
+        WHERE End_Date NOT IN (SELECT Start_Date FROM Projects)
+    ) AS e
+WHERE s.Start_Date < e.End_Date
+GROUP BY s.Start_Date
+ORDER BY
+    DATEDIFF(day, s.Start_Date, MIN(e.End_Date)) ASC,
+    s.Start_Date ASC;
