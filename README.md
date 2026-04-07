@@ -39,7 +39,7 @@ Each SQL file includes:
 
 - Bar:  
 `████████████████████████████████████████` Easy | `████████████░░░░░░` Medium | `░░` Hard  
-- Solved: Easy 40/40, Medium 11/16, Hard 0/2  
+- Solved: Easy 40/40, Medium 12/16, Hard 0/2  
 
 ### LeetCode (Total Problems: 105 → Easy 56, Medium 38, Hard 11)
 
